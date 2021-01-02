@@ -1,0 +1,16 @@
+.info{
+    flex: 1;
+    margin-top: 5px;
+    border: hidden;
+    outline-width: 0;
+    
+}
+.info:not(:last-child){
+    margin-right: 15px;
+}
+.case{
+    color: palevioletred;
+}
+.info_box {
+    color: greenyellow;
+}

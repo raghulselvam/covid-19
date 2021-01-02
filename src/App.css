@@ -1,0 +1,36 @@
+.app_header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.body{
+  background-color: #f5f6fa;
+}
+.info_box{
+  display: flex;
+  justify-content: space-between;
+}
+.app{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px; 
+
+}
+@media (max-width:990px){
+  .app{
+    flex-direction: column;
+  }
+}
+.app_left{
+  flex: 0.9;
+}
+.app_right{
+  flex: 0.1;
+  margin-left: 15px;
+}
+.worldcases{
+  
+  margin-top: 10px;
+  padding: 5px;
+}
